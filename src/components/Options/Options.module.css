@@ -1,0 +1,40 @@
+
+.containerBtn {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin-bottom: 44px;
+
+}
+.btnGood {
+background-color: chartreuse;
+border: none;
+border-radius: 10px;
+cursor: pointer;
+min-width: 60px;
+font-size: 17px;
+font-weight: 22px;
+padding: 3px;
+}
+
+.btnNeutral {
+    background-color:rgb(255, 140, 0);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 60px;
+    font-size: 17px;
+   
+}
+
+.btnBad{
+    background-color:rgb(255, 47, 0);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    min-width: 60px;
+    font-size: 17px;
+    
+}

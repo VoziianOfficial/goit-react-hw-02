@@ -1,0 +1,19 @@
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('../assets/images/fon.jpg'); /* Путь к изображению */
+    background-size: cover; /* Растянуть изображение на всю страницу */
+    background-position: center; /* Центрировать изображение */
+    background-repeat: no-repeat; /* Отключить повторение */
+    height: 100vh; /* Высота страницы на весь экран */
+    width: 100vw; /* Ширина страницы на весь экран */
+  }
+  

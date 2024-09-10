@@ -1,0 +1,28 @@
+/* .good {
+    color:#fff;
+    font-size: 22px;
+}
+
+.neutral {
+    color:#fff;
+    font-size: 22px;
+}
+
+.bad {
+    color:#fff;
+}
+
+.total {
+    color:#fff;
+}
+
+.positive {
+    color:#fff;
+} */
+
+.feedbackContainer {
+    color: #fff;
+    font-size: 22px;
+    padding-left: 22px;
+    margin-bottom: 10px;
+}
