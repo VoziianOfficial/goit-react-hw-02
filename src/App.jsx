@@ -3,8 +3,7 @@ import Description from './components/Description/Description';
 import Options from './components/Options/Options';
 import Feedback from './components/Feedback/Feedback';
 import Notification from './components/Notification/Notification';
-import Reset from './components/Reset/Reset';
-import './App.module.css/App.css'
+import './App.module.css/App.module.css'
 
 function App() {
   const [feedback, setFeedBack] = useState({
@@ -55,7 +54,11 @@ function App() {
   return (
     <>
     <Description/>
-    <Options onLiveFeedback={updateFeedback} />
+    <Options 
+    onLiveFeedback={updateFeedback}
+    onReset ={resetFeedback}
+    totalFeedback ={totalFeedback}
+     />
 
     {totalFeedback > 0 ? (
       <Feedback 
@@ -68,8 +71,6 @@ function App() {
     ) : (
       <Notification message="No feedback yet"/>
     )}
-    {totalFeedback > 0 && (
-      <Reset onReset={resetFeedback}/>)}
   
 
     </>
